@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb;
+  font-family: sans-serif;
+}
+/*
+=============================
+NAV Bar
+=============================
+*/
+
+nav {
+  padding:15px;
+  border-bottom: 2px solid black;
+}
+/* Icon */
+div i {
+  color: #ff9caf;
+}
+i.fa-diamond {
+  font-size: 30px;
+  margin: 11px;
+}
+.fa-diamond {
+  padding: 4px;
+}
+/* Icon text */
+div h3 {
+  display: inline-block;
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* floats links to right */
+div.links {
+  float: right;
+}
+ul {
+  padding: 20px;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+}
+ a {
+   text-decoration: none;
+
+ }
+li a {
+  color: black;
+  padding: 20px;
+}
+
+
+/*
+=============================
+HEADER
+=============================
+*/
+
+header {
+  text-align: center;
+  padding-top: 51px;
+}
+header span {
+  color: #ff9caf;
+}
+header h5 {
+  margin-top: 15px;
+}
+
+/* Main Image */
+.main_photo img {
+    position: relative;
+    left: 254px;
+    width: 62%;
+    height: 41%;
+    top: 49px;
+    border-radius: 30px;
+}
+/*
+=============================
+SECTIONS
+=============================
+*/
+
+section {
+  margin-top: 113px;
+}
+/* section 1 display */
+.sub_section1 {
+  display: inline-block;
+  padding: 22px;
+  margin-left: 109px;
+}
+/* section 2 display */
+.sub_section2 {
+  float:right;
+  padding: 22px;
+  margin-right: 109px;
+}
+/* changes h3 to pink and centered */
+.sub_section1 h3 {
+  margin-left: 219px;
+  margin-bottom: 20px;
+  color: #ff9caf;
+}
+/* changes h3 to pink and centered */
+.sub_section2 h3 {
+  margin-left: 219px;
+  margin-bottom: 20px;
+  color: #ff9caf;
+}
+
+/*
+=============================
+PHOTO LINKS
+=============================
+*/
+.photo_links1 {
+  padding: 25px
+}
+.photo_links1, .photo_links2 {
+  text-align: center;
+}
+.photo_links1 img {
+    height: 130px;
+    border-radius: 10px;
+    width: 178px;
+}
+.photo_links2 img {
+    height: 130px;
+    border-radius: 10px;
+    width: 178px;
+}
+
+/*
+=============================
+BOTTOM header
+=============================
+*/
+
+.bottom_head {
+    text-align: center;
+    padding-top: 45px;
+    color: #ff9ca7;
+}
+
+/*
+=============================
+FOOTER
+=============================
+*/
+
+form {
+  background-color: #2d2d2d;;
+  padding: 24px;
+  display: inline-block;
+  width: 100%;
+}
+form input.input1 {
+  width: 340px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+form textarea {
+  width: 341px;
+  height: 196px;
+}
+form input.input2 {
+    width: 51px;
+    color: white;
+    background-color: #2d2d2d;
+    border-style: none;
+}
+
+/*
+=============================
+SOCIAL MEDIA ICONS
+=============================
+*/
+
+.fa-twitter, .fa-facebook,.fa-youtube, .fa-google {
+    float: right;
+    border-radius: 50px;
+    background-color: #ff9ca7;
+    margin: 5px;
+    position: relative;
+    bottom: 120px;
+    padding: 2px;
+}
