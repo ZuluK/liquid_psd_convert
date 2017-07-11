@@ -1,8 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #ebebeb;
   font-family: sans-serif;
+}
+body {
+  background-color: #ebebeb;
 }
 /*
 =============================
@@ -118,6 +120,20 @@ section {
 PHOTO LINKS
 =============================
 */
+.photo_links1 div {
+  display: inline-block;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 13px;
+}
+.photo_links1 div h2 {
+  font-size: 16px;
+}
+.photo_links1 div p {
+  color: #ff9ca7;
+  font-size: 13px;
+  font-family: 'Lobster Two', cursive;
+}
 .photo_links1 {
   padding: 25px
 }
@@ -126,12 +142,26 @@ PHOTO LINKS
 }
 .photo_links1 img {
     height: 130px;
-    border-radius: 10px;
+    border-radius: 1px;
     width: 178px;
+}
+.photo_links2 div p {
+  color: #ff9ca7;
+  font-size: 13px;
+  font-family: 'Lobster Two', cursive;
+}
+.photo_links2 div h2 {
+  font-size: 16px;
+}
+.photo_links2 div {
+  display: inline-block;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 13px;
 }
 .photo_links2 img {
     height: 130px;
-    border-radius: 10px;
+    border-radius: 1px;
     width: 178px;
 }
 
